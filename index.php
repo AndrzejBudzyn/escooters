@@ -32,11 +32,11 @@ $providers = new Providers();
 
 /** @var array<DataImporter> $dataImporters */
 $dataImporters = [
+    new TierDataImporter($cities, $countries),
     new LimeDataImporter($cities, $countries),
     new LinkDataImporter($cities, $countries),
     new BoltDataImporter($cities, $countries),
     new QuickDataImporter($cities, $countries),
-    new TierDataImporter($cities, $countries),
     new VoiDataImporter($cities, $countries),
     new SpinDataImporter($cities, $countries),
     new NeuronDataImporter($cities, $countries),
