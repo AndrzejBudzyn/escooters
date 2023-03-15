@@ -42,9 +42,6 @@ class LimeDataImporter extends DataImporter implements HtmlDataSource
                         if ($hardcoded) {
                             $country = $this->countries->retrieve($hardcoded);
                         }
-
-                        $city = $this->cities->retrieve($cityName, $country);
-                        $this->provider->addCity($city);
                     } catch (CityNotAssignedToAnyCountryException $exception) {
                         echo $exception->getMessage() . PHP_EOL;
                         continue;
