@@ -1,0 +1,8 @@
+1. Możliwość oceniania przewodników indiwidualnie w każdym mieście aby użytkownicy wiedzili jakiej jakości są usługi.
+
+2. Dodanie możliwośći sprawdzenia dostępności ilości hulajnog.
+
+3. Dodanie kilku alternatywnych języków by zwiększyć zasięgi aplikacji.
+
+4. Pobieranie lokalizacji użtkownika w celu przyblizenia mapy .
+
